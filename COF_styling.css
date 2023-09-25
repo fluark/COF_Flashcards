@@ -1,0 +1,30 @@
+/*
+* {
+   border-style: solid;
+   border-color:sandybrown;
+}
+*/
+.flashcard {
+    height: auto;
+    width: auto;
+    border-style: dashed;
+    border-color: blue;
+    display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
+}
+
+.front, .back {
+    height: 100px;
+    width: 100px;
+    border-style: dotted;
+    border-color: grey;
+    padding: 10px;
+    text-align: center;
+    backface-visibility: hidden;
+    transition: transform 0.5s;
+}
+
+.back {
+    transform: rotateY(180deg);
+}
