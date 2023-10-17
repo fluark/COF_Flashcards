@@ -1,7 +1,8 @@
 
 * {
     border: solid green;
-}
+  }
+
 .container { /*controls the size of the card*/
     position: relative;
     width: 700px;
